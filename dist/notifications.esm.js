@@ -1,0 +1,1 @@
+function n(e){e.magic("notify",()=>(i={})=>{let f="Notification"in window,s=Object.keys(i).length;if(!f||!s)return;Notification.permission==="granted"?o(i):Notification.requestPermission().then(t=>{t==="granted"&&o(i)});function o({title:t,body:c,icon:r}){new Notification(t,{body:c,icon:r})}})}var p=n;export{p as default};

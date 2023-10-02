@@ -1,15 +1,15 @@
 {
-  "name": "PLUGIN",
+  "name": "alpinejs-desktop-notifications",
   "version": "1.0.0",
-  "description": "DESCRIPTION",
+  "description": "Create desktop notifications with Alpine JS 📣",
   "keywords": [
     "Alpine",
     "Alpine JS",
     "Alpine JS Plugin",
     "Alpine JS Plugins"
   ],
-  "module": "dist/FILE.esm.js",
-  "unpkg": "dist/FILE.min.js",
+  "module": "dist/notifications.esm.js",
+  "unpkg": "dist/notifications.min.js",
   "scripts": {
     "build": "node scripts/build.js"
   },

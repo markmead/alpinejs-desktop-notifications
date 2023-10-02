@@ -1,8 +1,27 @@
 export default function (Alpine) {
-  Alpine.directive(
-    '[name]',
-    (el, { value, modifiers, expression }, { Alpine, effect, cleanup }) => {}
-  )
+  Alpine.magic('notify', () => (notifyData = {}) => {
+    const hasSupport = 'Notification' in window
+    const hasData = Object.keys(notifyData).length
 
-  Alpine.magic('[name]', (el, { Alpine }) => {})
+    if (!hasSupport || !hasData) {
+      return
+    }
+
+    if (Notification.permission === 'granted') {
+      showNotification(notifyData)
+    } else {
+      Notification.requestPermission().then((notificationPermission) => {
+        if (notificationPermission === 'granted') {
+          showNotification(notifyData)
+        }
+      })
+    }
+
+    function showNotification({ title, body, icon }) {
+      new Notification(title, {
+        body,
+        icon,
+      })
+    }
+  })
 }
