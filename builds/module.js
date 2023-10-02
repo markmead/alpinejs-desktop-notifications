@@ -1,3 +1,3 @@
-import notifications from '../src/index.js'
+import notify from '../src/index.js'
 
-export default notifications
+export default notify

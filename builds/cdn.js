@@ -1,5 +1,3 @@
-import notifications from '../src/index.js'
+import notify from '../src/index.js'
 
-document.addEventListener('alpine:init', () =>
-  window.Alpine.plugin(notifications)
-)
+document.addEventListener('alpine:init', () => window.Alpine.plugin(notify))

@@ -9,7 +9,7 @@ Create desktop notifications with Alpine JS 📣
 ```html
 <script
   defer
-  src="https://unpkg.com/alpinejs-desktop-notifications@latest/dist/notifications.min.js"
+  src="https://unpkg.com/alpinejs-desktop-notify@latest/dist/notifications.min.js"
 ></script>
 
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -18,14 +18,14 @@ Create desktop notifications with Alpine JS 📣
 ### With a Package Manager
 
 ```shell
-yarn add -D alpinejs-desktop-notifications
+yarn add -D alpinejs-desktop-notify
 
-npm install -D alpinejs-desktop-notifications
+npm install -D alpinejs-desktop-notify
 ```
 
 ```js
 import Alpine from 'alpinejs'
-import notifications from 'alpinejs-desktop-notifications'
+import notifications from 'alpinejs-desktop-notify'
 
 Alpine.plugin(notifications)
 
@@ -61,7 +61,7 @@ _You can also pass `icon` in the object._
 
 ## Stats
 
-![](https://img.shields.io/bundlephobia/min/alpinejs-desktop-notifications)
-![](https://img.shields.io/npm/v/alpinejs-desktop-notifications)
-![](https://img.shields.io/npm/dt/alpinejs-desktop-notifications)
+![](https://img.shields.io/bundlephobia/min/alpinejs-desktop-notify)
+![](https://img.shields.io/npm/v/alpinejs-desktop-notify)
+![](https://img.shields.io/npm/dt/alpinejs-desktop-notify)
 ![](https://img.shields.io/github/license/markmead/alpinejs-desktop-notifications)
