@@ -34,7 +34,30 @@ Alpine.start()
 
 ## Example
 
-Examples of how the plugin works.
+### Static Notification
+
+```html
+<button
+  x-data
+  @click="$notify({ title: 'New message', body: 'Can you get me a mayo chicken?' })"
+>
+  Notify
+</button>
+```
+
+### Dynamic Notification
+
+```html
+<div x-data="{ title: '', body: '' }">
+  <input type="text" x-model="title" />
+
+  <textarea x-model="body"></textarea>
+
+  <button @click="$notify({ title, body })"> Notify </button>
+</div>
+```
+
+_You can also pass `icon` in the object._
 
 ## Stats
 

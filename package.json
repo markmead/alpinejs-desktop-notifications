@@ -6,7 +6,10 @@
     "Alpine",
     "Alpine JS",
     "Alpine JS Plugin",
-    "Alpine JS Plugins"
+    "Alpine JS Plugins",
+    "Alpine JS Notifications",
+    "Alpine JS Desktop Notifications",
+    "Desktop Notifications"
   ],
   "module": "dist/notifications.esm.js",
   "unpkg": "dist/notifications.min.js",
