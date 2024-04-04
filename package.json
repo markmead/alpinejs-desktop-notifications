@@ -1,6 +1,6 @@
 {
   "name": "alpinejs-desktop-notify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create desktop notifications with Alpine JS 📣",
   "keywords": [
     "Alpine",
@@ -17,6 +17,6 @@
     "build": "node scripts/build.js"
   },
   "devDependencies": {
-    "esbuild": "^0.16.2"
+    "esbuild": "^0.20.2"
   }
 }
