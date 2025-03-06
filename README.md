@@ -1,6 +1,32 @@
-# Alpine JS Desktop Notifications
+# Alpine JS Desktop Notifications Plugin
 
-Create desktop notifications with Alpine JS 📣
+![](https://img.shields.io/bundlephobia/min/alpinejs-desktop-notify)
+![](https://img.shields.io/npm/v/alpinejs-desktop-notify)
+![](https://img.shields.io/npm/dt/alpinejs-desktop-notify)
+![](https://img.shields.io/github/license/markmead/alpinejs-desktop-notifications)
+
+This plugin extends Alpine JS to enable desktop notifications in your web
+applications. With a simple API, you can create native browser notifications to
+enhance user experience and engagement.
+
+## Features
+
+- Easy integration with Alpine JS
+- Customizable notification content
+- Permission handling
+- Support for notification actions
+- Responsive fallbacks when notifications are blocked
+
+## Use Cases
+
+- Alert users of important events even when they're in another tab
+- Notify users when background tasks complete
+- Create reminder systems for web applications
+- Enhance chat applications with new message notifications
+
+The plugin provides a straightforward way to leverage the Web Notifications API
+within the Alpine JS framework, making it easy to implement desktop
+notifications without complex JavaScript.
 
 ## Install
 
@@ -12,7 +38,7 @@ Create desktop notifications with Alpine JS 📣
   src="https://unpkg.com/alpinejs-desktop-notify@latest/dist/notifications.min.js"
 ></script>
 
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script defer src="https://unpkg.com/alpinejs@latest/dist/cdn.min.js"></script>
 ```
 
 ### With a Package Manager
@@ -58,10 +84,3 @@ Alpine.start()
 ```
 
 _You can also pass `icon` in the object._
-
-## Stats
-
-![](https://img.shields.io/bundlephobia/min/alpinejs-desktop-notify)
-![](https://img.shields.io/npm/v/alpinejs-desktop-notify)
-![](https://img.shields.io/npm/dt/alpinejs-desktop-notify)
-![](https://img.shields.io/github/license/markmead/alpinejs-desktop-notifications)
