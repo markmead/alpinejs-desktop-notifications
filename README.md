@@ -65,7 +65,7 @@ Alpine.start()
 ```html
 <button
   x-data
-  @click="$notify({ title: 'New message', body: 'Can you get me a mayo chicken?' })"
+  @click="$notify({ title: 'New message', body: 'Hello there 👋' })"
 >
   Notify
 </button>
