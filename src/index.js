@@ -9,13 +9,15 @@ export default function (Alpine) {
 
     if (Notification.permission === 'granted') {
       showNotification(notifyData)
-    } else {
-      Notification.requestPermission().then((notificationPermission) => {
-        if (notificationPermission === 'granted') {
-          showNotification(notifyData)
-        }
-      })
+
+      return
     }
+
+    Notification.requestPermission().then((notificationPermission) => {
+      if (notificationPermission === 'granted') {
+        showNotification(notifyData)
+      }
+    })
 
     function showNotification({ title, body, icon }) {
       new Notification(title, {
