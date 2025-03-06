@@ -1,15 +1,13 @@
 {
   "name": "alpinejs-desktop-notify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create desktop notifications with Alpine JS 📣",
   "keywords": [
-    "Alpine",
-    "Alpine JS",
-    "Alpine JS Plugin",
-    "Alpine JS Plugins",
-    "Alpine JS Notifications",
-    "Alpine JS Desktop Notifications",
-    "Desktop Notifications"
+    "alpine",
+    "alpinejs",
+    "notifications",
+    "browser-notifications",
+    "desktop-notifications"
   ],
   "module": "dist/notifications.esm.js",
   "unpkg": "dist/notifications.min.js",
