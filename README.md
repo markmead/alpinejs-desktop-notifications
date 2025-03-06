@@ -13,9 +13,7 @@ enhance user experience and engagement.
 
 - Easy integration with Alpine JS
 - Customizable notification content
-- Permission handling
-- Support for notification actions
-- Responsive fallbacks when notifications are blocked
+- Permission checking
 
 ## Use Cases
 
